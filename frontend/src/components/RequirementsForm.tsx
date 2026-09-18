@@ -146,7 +146,7 @@ export default function RequirementsForm({
         </div>
 
         <div>
-          <label className={label} htmlFor="budget">Budget (total, ₹)</label>
+          <label className={label} htmlFor="budget">Budget (total, $)</label>
           <input
             id="budget"
             type="number"

@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field
 class PlanRequest(BaseModel):
     event_type: str = Field(..., examples=["wedding reception"])
     guest_count: int = Field(..., gt=0, examples=[120])
-    budget: float = Field(0, ge=0, description="Total ingredient budget; 0 = no limit")
+    budget: float = Field(0, ge=0, description="Total budget in USD ($); 0 = no limit")
     dietary_restrictions: List[str] = Field(default_factory=list,
                                             examples=[["vegetarian", "no nuts"]])
     cuisine_pref: Optional[str] = Field(None, examples=["Indian"])

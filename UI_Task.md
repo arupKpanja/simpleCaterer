@@ -133,7 +133,7 @@ Frontend app + typed API layer are up.
   (with `.no-print` hiding the header/form/timeline) of the placed shopping list
   (`src/lib/export.ts`); a11y — `aria-live`/`aria-busy` on the run region,
   `role="alert"` on error banners, `aria-pressed` chips, labelled controls,
-  focus-visible rings; responsive grid (cards stack on mobile); `₹` currency
+  focus-visible rings; responsive grid (cards stack on mobile); `$` currency
   formatting throughout.
 - **Verified:** build passes (45 modules); dev server serves; theme-init present.
 - **Done when:** usable and accessible on desktop + mobile in both themes. ✔
